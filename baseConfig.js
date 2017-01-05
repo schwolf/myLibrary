@@ -2,7 +2,7 @@ var baseConfig = {
     module: {
         loaders: [
             {
-                test: /\.js/,
+                test: /\.js$/,
                 exclude: /node_modules/,
                 loader: 'babel',
                 query: {
@@ -17,7 +17,7 @@ var baseConfig = {
             commonjs2: 'react',
             commonjs: 'react',
             amd: 'react',
-            },
+        },
         'react-dom': {
             root: 'ReactDOM',
             commonjs2: 'react-dom',
