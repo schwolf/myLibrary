@@ -1,7 +1,7 @@
 {
   "name": "myLibrary",
   "version": "1.0.24",
-  "description": "",
+  "description": "Beispiel einer React-Komponenten-Bibliothek, die in einem Paketrepository wie npm veröffentlicht werden könnte.",
   "main": "dist/myLibrary.js",
   "scripts": {
     "webpack:lib": "./node_modules/.bin/webpack -d --config ./webpack.lib.config.js",

@@ -1,6 +1,6 @@
 # myLibrary
 
-Eine beispielhafte React-Komponenten-Bibliothek, die in einem Paketrepository wie npm veröffentlicht werden könnte.
+Beispiel einer React-Komponenten-Bibliothek, die in einem Paketrepository wie npm veröffentlicht werden könnte.
 
 ## Anforderungen
 
@@ -12,7 +12,7 @@ Installation und Nutzung analog zu anderen 3rd-pary packages:
 npm install myLibrary
 ```
 ```javascript
-import {MyComponentA, MyComponentB} from 'myLibrary'
+import { MyComponentA, MyComponentB } from 'myLibrary'
 ```
 
 ### Bereitstellung
