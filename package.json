@@ -1,0 +1,38 @@
+{
+  "name": "myLibrary",
+  "version": "1.0.24",
+  "description": "",
+  "main": "dist/myLibrary.js",
+  "scripts": {
+    "webpack:lib": "./node_modules/.bin/webpack -d --config ./webpack.lib.config.js",
+    "webpack:dist":  "./node_modules/.bin/webpack -d  --config ./webpack.config.js",
+    "start": "npm run webpack:dist && http-server",
+    "prepublish": "npm run webpack:lib && npm run webpack:dist" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schwolf/myLibrary.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/schwolf/myLibrary/issues"
+  },
+  "homepage": "https://github.com/schwolf/myLibrary#readme",
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "webpack": "^1.14.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0"
+  },
+  "dependencies": {
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  },
+  "peerDependencies": {
+    "react": ">= 15.4.1",
+    "react-dom": ">= 15.4.1"
+  }
+}

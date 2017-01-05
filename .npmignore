@@ -1,0 +1,4 @@
+index.html
+webpack.*
+.npmignore
+src/index.js
