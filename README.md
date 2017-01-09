@@ -40,6 +40,8 @@ Möglichkeit der Nutzung sowohl als commonjs oder AMD-Modul aber auch als script
 
 ### Versionierung nach [SemVer](http://semver.org/)
 
+MAJOR.MINOR.PATCH
+
 ## Umsetzungserläuterungen
 
 - Aufsetzen einer entsprechenden Umgebung, z.B. durch Nutzung eines enstprechenden React-Boilerplates.
