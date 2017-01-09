@@ -35,8 +35,10 @@ Möglichkeit der Nutzung sowohl als commonjs oder AMD-Modul aber auch als script
 ```
 
 ### Abhängigkeiten gering halten und deutlich machen
-- Vermeidung von Nutzungsvoraussetzungen wie ES6 / Babel / JSX, sprich Auslieferung ES5-Kompilat
+- Vermeidung von Nutzungsvoraussetzungen wie ES6 / Babel / JSX, sprich Auslieferung als ES5-Kompilat
 - Explizites Herausstellen von Nutzungsvoraussetzungen (Libraries wie react / react-dom), z.B. via package.json peerDependencies
+
+### Versionierung nach [SemVer](http://semver.org/)
 
 ## Umsetzungserläuterungen
 
